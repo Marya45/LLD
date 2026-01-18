@@ -1,0 +1,25 @@
+1. Vehicle arrives at an entry gate 
+  => there can be multiple entry gates 
+
+2. Based on VehicleType, particular parkingSpot is looked for. 
+  => parkingSpot can choosen randomly or have a parkingStrategy
+  => parkingLot can have multiple levels 
+
+3. If parkingSpot is available, Ticket is generated for particular Vehicle
+  => Ticket can have: vehicle no, parking level no, parking spot no, entry time 
+
+4. At exitGate cost computation should happen
+  => cost computation can multiple strategies like fixes or hourly
+
+5. Payment will made against the ticket at exitGate and parkingSpot is free again 
+
+-----------------------------------------------------------------------------------
+
+Major object involved in this design are : 
+-Vehicle
+-Parking Spot 
+-Parking Level 
+-Entry Gate 
+-Exit Gate 
+-Ticket 
+-Payment 
