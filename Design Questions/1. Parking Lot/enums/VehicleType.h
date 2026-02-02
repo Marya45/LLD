@@ -1,6 +1,5 @@
 #pragma once 
 enum class VehicleType {
-    CAR,
-    BIKE,
-    TRUCK
+    TWO_WHEELER,
+    FOUR_WHEELER
 };

@@ -6,6 +6,6 @@ private:
     double fixedRatePerHour = 10.0; 
 public: 
     double calculatePrice(int hoursParked) override {
-        return fixedRatePerHour * hoursParked;
+        return fixedRatePerHour*hoursParked + 10.0;
     }
 };

@@ -5,8 +5,9 @@
 class CashPayment : public Payment {
 
 public:
-    void processPayment(double amount) override {
+    bool processPayment(double amount) override {
         std::cout << "Processing cash payment of amount: " << amount << std::endl;
+        return true;
     }
 
 };

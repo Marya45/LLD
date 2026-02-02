@@ -10,7 +10,7 @@ protected:
     ParkingSpotLookupStrategy* lookupStrategy;
 
 public:
-    ParkingSpotManager(ParkingSpotLookupStrategy* strategy) : lookupStrategy(strategy) {}
+    ParkingSpotManager(ParkingSpotLookupStrategy* strategy,std::vector<ParkingSpot*> spots) : lookupStrategy(strategy), parkingSpots(spots) {}
 
     ParkingSpot* getParkingSpot() {
         return lookupStrategy->findSpot(parkingSpots);
