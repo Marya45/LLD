@@ -1,0 +1,12 @@
+- 3*3 grid
+- 2 player game
+- Each player selects a character before the game i.e. 'X' OR 'O'
+- Player plays by placing the character on the grid 
+- A player wins by placing three of its character in a row or column or diagonal 
+- Game ends when a player wins or all grids cells are filled - resulting in a draw
+
+
+Objects involved : 
+- Playing character
+- Board - n*n
+- Player
